@@ -7,5 +7,9 @@ homepage_summary:  La villa rose est une villa de caractère constituée de piè
 ---
 La villa
 ========
-Elle est *superbe*.
+Elle est *superbe* mais elle pue.
 
+![DSC36](photos/DSC00131.JPG "texte pour le titre, facultatif")
+
+<img src="DSC00136.JPG" alt="An awesome image" width="400px" />
+c'est son titre

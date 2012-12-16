@@ -7,12 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
+	<link href="http://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet" type="text/css">
     <!-- Le styles -->
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet">
     <style>
       .carousel-control {
         top: 50%;/*because we have no item legend*/
       }
+	  #titre {
+		color: #555;
+		font-size: 1.5em;
+		font-family: 'Julius Sans One', sans-serif;
+	  }
+	  h1 {
+		box-sizing: border-box;
+		height: 189px;
+		white-space: nowrap;
+		text-align: center;
+	    padding: 1.5em 0.5em;/*ajuster ici quand on change image fond*/
+	  }
+	  body {
+	    background-repeat: no-repeat;
+		background-position: top;
+		background-image: url("photos/banniere.JPG");
+		/*background-color: black;
+		color: #CACACA;*/
+	  }
       footer {
         padding: 1em;
         text-align: center;
@@ -46,15 +66,14 @@
   </head>
   
   <body>
-    <div class="navbar">
+   <h1><a id="titre" href="{{site.pages_by_lang[page.lang][0].url}}">{{site.site_name}}</a></h1>
+	<div class="navbar"><!-- navbar-inverse -->
       <div class="navbar-inner">
-        <div class="container">
           <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="{{site.pages_by_lang[page.lang][0].url}}">{{site.site_name}}</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
  {% for p in site.pages_by_lang[page.lang] %}
@@ -64,10 +83,9 @@
 {% endfor %}
             </ul>
           </div>
-        </div>
       </div>
     </div>
-    <div class="container">
+	<div class="container">
       {{ content }}
       <hr>
       <footer>
