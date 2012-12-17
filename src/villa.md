@@ -3,9 +3,11 @@ title: La Villa
 lang: fr
 layout: layout
 tabs_priority: 9
-homepage_summary:  La villa rose est une villa de caractère constituée de pièces portes et fenêtres. Concue par un architecte momorentin dans les années 1903, ses masures ont un charme époustouflant. Elle est de plus dotée d'une piscine de plus de 3 mètres carrés
+homepage_summary:  La Villa Rose a été un coup de foudre pour ses propriétaires. 
+Cette maison d'architecte en bois est dans le charmant bourg de l'Anse-à-L'Âne, à quelques minutes de la plage, tout en bénéficiant de jolies vues sur la campagne environnante.
+La maison est vaste, elle a quatre belles chambres, un grand jardin, une piscine. Elle ne ressemble à aucune autre maison.
 ---
-La villa
+La Villa
 ========
 Elle est *superbe* mais elle pue.
 

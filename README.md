@@ -39,7 +39,8 @@ All pages are listed in `src/`.
  Le dossier -layouts contient les tructures communes à toutes les pages (anglaises et françaises).
  Les pages directement sous src contiennent le texte sans mise en page.
  
- pour sauvegarder les modifs dans GITHUB, il faut arrêter le server avec CTRL C. e sauvegarder avec git add -A
+ pour sauvegarder les modifs dans GITHUB, il faut arrêter le server avec CTRL C. e sauvegarder avec git add -A. git status pour pointer les modifications. git commit I pour INSERT le commentaire puis ESC:wq RET pour quitter le mode insertion et enregistrer la modif . Enfin git push pour pousser vers le serveur (username Villa-rose pwd mercator0)
+ 
 Required Front Matter Properties
 --------------------------------
 Pages begin with a [front matter](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter). It has to contain properties `lang`, `tabs_priority` and `title`
