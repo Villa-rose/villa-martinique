@@ -1,0 +1,14 @@
+---
+layout: layout
+---
+<div class="row">
+ <img id="zoom" class="span7" src="{{page.photos[0]}}"/>
+ <div class="span5">
+ <h3>{{page.title}}</h3>
+ <p>{{page.description}}</p>
+
+ {% for photo in page.photos %}
+      <img style="margin: 5px;" width="140" src="{{photo}}" onmouseover="$('#zoom').attr('src', '{{photo}}')"/>
+{% endfor %}
+ </div>
+</div>
