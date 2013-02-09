@@ -39,7 +39,13 @@ All pages are listed in `src/`.
  Le dossier -layouts contient les tructures communes à toutes les pages (anglaises et françaises).
  Les pages directement sous src contiennent le texte sans mise en page.
  
- pour sauvegarder les modifs dans GITHUB, il faut arrêter le server avec CTRL C. e sauvegarder avec git add -A. git status pour pointer les modifications. git commit I pour INSERT le commentaire puis ESC:wq RET pour quitter le mode insertion et enregistrer la modif . Enfin git push pour pousser vers le serveur (username Villa-rose pwd mercator0)
+ pour sauvegarder les modifs dans GITHUB, il faut :
+	arrêter le server avec CTRL C. e sauvegarder avec git add -A. 
+	git status pour pointer les modifications. 
+	git commit 
+	puis I pour INSERT le commentaire 
+	puis ESC:wq RET pour quitter le mode insertion et enregistrer la modif . 
+	Enfin git push pour pousser vers le serveur (username Villa-rose pwd mercator0)
  
 Required Front Matter Properties
 --------------------------------
