@@ -4,7 +4,7 @@ lang: fr
 layout: photo_mouse_over
 tabs_priority: 6
 photos:
- - photos/vue-satellite.JPG
+ - photos/alentours/vue-satellite.JPG
  - photos/alentours/DSC01476.JPG
  - photos/alentours/DSC01496.JPG
  - photos/alentours/DSC01490.JPG
