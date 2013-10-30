@@ -15,7 +15,7 @@ Install [git](http://git-scm.org)
 Copy `_config.yml.sample` to `_config.yml`. If you want you can specify your google analytics key
 
 Pour lancer le terminal, taper terminal dans la loupe.
-cd document/villa-martinique
+cd documents/villa-martinique
 
 To test your setup run `jekyll --server --auto` at the root of the project directory. The website should be available at http://localhost:4000/
 
