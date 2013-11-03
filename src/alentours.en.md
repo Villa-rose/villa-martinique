@@ -2,7 +2,7 @@
 title: Around La Villa Rose
 lang: en
 layout: photo_mouse_over
-tabs_priority: 6
+tabs_priority: 5
 photos:
  - photos/alentours/vue-satellite.JPG
  - photos/alentours/DSC03742.JPG
