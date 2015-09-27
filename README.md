@@ -46,7 +46,7 @@ All pages are listed in `src/`.
 	git commit 
 	puis I pour INSERT le commentaire 
 	puis ESC:wq RET pour quitter le mode insertion et enregistrer la modif . 
-	Enfin git push pour pousser vers le serveur (username Villa-rose pwd mercator0)
+	Enfin git push pour pousser vers le serveur
  
 Required Front Matter Properties
 --------------------------------
