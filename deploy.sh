@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 set -e
-jekyll
+jekyll build
 cd _site
 git init
 git checkout -b gh-pages

@@ -18,7 +18,7 @@ Copy `_config.yml.sample` to `_config.yml`. If you want you can specify your goo
 Pour lancer le terminal, taper terminal dans la loupe.
 cd documents/villa-martinique
 
-To test your setup run `jekyll --server --auto` at the root of the project directory. The website should be available at http://localhost:4000/
+To test your setup run `jekyll serve` at the root of the project directory. The website should be available at http://localhost:4000/
 
 Deploy to Amazon S3
 ---------
